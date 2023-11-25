@@ -1,0 +1,15 @@
+<div>
+  <app-search (searchEvent)="onSearch($event)"></app-search>
+  <div *ngIf="noBooksFound; else booksList">
+    No books found.
+  </div>
+  <ng-template #booksList>
+    <div *ngFor="let book of filteredBooks">
+      <a [routerLink]="['/details', book.id]">
+        {{ book.title }} by {{ book.author }}
+      </a>
+      <button (click)="onDelete(book)">Delete</button>
+    </div>
+  </ng-template>
+  <app-add-book></app-add-book>
+</div>

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "The Catcher in the Rye",
+    "author": "Salinger",
+    "description": "A classic novel about the struggles of a young man in society.",
+    "image": "assets/images/book.jpg"
+  },
+  {
+    "id": "2",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A powerful story of racial injustice and moral growth in the American South.",
+    "image": "assets/images/book.jpg"
+  },
+  {
+    "id": "3",
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel depicting a totalitarian society and the struggle for individualism.",
+    "image": "assets/images/book.jpg"
+  },
+  {
+    "id": "4",
+    "title": "The Great Gatsby",
+    "author": "Scott Fitzgerald",
+    "description": "A tale of the Roaring Twenties, love, and the American Dream.",
+    "image": "assets/images/book.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "description": "The first book in the magical series about a young wizard's adventures.",
+    "image": "assets/images/book.jpg"
+  }
+]
