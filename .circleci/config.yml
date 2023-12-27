@@ -1,0 +1,18 @@
+version: 2.1
+orbs:
+  node: circleci/node@4.7.0
+jobs:
+  check:
+    executor:
+      name: node/default
+      tag: '16.3.0'
+    steps:
+      - checkout
+      - node/install-packages:
+          override-ci-command: npm install
+      - run: npm run lint
+      - run: npm run build
+workflows:
+  node-checks:
+    jobs:
+      - check
